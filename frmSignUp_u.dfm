@@ -1,0 +1,191 @@
+object frmSignUp: TfrmSignUp
+  Left = 0
+  Top = 0
+  BorderIcons = []
+  BorderStyle = bsDialog
+  Caption = 'Sign Up'
+  ClientHeight = 248
+  ClientWidth = 276
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lblSignUp: TLabel
+    Left = 8
+    Top = 8
+    Width = 183
+    Height = 23
+    Caption = 'Sign up for D-Enigma'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lblDateOfBirth: TLabel
+    Left = 8
+    Top = 136
+    Width = 71
+    Height = 16
+    Caption = 'Date of Birth'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lblPasswordCheck: TLabel
+    Left = 152
+    Top = 96
+    Width = 42
+    Height = 11
+    Caption = '*Required'
+    Color = clBtnFace
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -9
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentColor = False
+    ParentFont = False
+  end
+  object lblDateOfBirthCheck: TLabel
+    Left = 8
+    Top = 185
+    Width = 42
+    Height = 11
+    Caption = '*Required'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -9
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lblUsernameCheck: TLabel
+    Left = 8
+    Top = 96
+    Width = 42
+    Height = 11
+    Caption = '*Required'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -9
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lblConfirmPasswordCheck: TLabel
+    Left = 152
+    Top = 185
+    Width = 42
+    Height = 11
+    Caption = '*Required'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -9
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object ledUsername: TLabeledEdit
+    Left = 8
+    Top = 72
+    Width = 121
+    Height = 21
+    EditLabel.Width = 58
+    EditLabel.Height = 16
+    EditLabel.Caption = 'Username'
+    EditLabel.Font.Charset = DEFAULT_CHARSET
+    EditLabel.Font.Color = clWindowText
+    EditLabel.Font.Height = -13
+    EditLabel.Font.Name = 'Tahoma'
+    EditLabel.Font.Style = []
+    EditLabel.ParentFont = False
+    MaxLength = 20
+    TabOrder = 0
+    OnChange = ledUsernameChange
+  end
+  object ledPassword: TLabeledEdit
+    Left = 147
+    Top = 72
+    Width = 121
+    Height = 21
+    EditLabel.Width = 55
+    EditLabel.Height = 16
+    EditLabel.Caption = 'Password'
+    EditLabel.Font.Charset = DEFAULT_CHARSET
+    EditLabel.Font.Color = clWindowText
+    EditLabel.Font.Height = -13
+    EditLabel.Font.Name = 'Tahoma'
+    EditLabel.Font.Style = []
+    EditLabel.ParentFont = False
+    MaxLength = 20
+    PasswordChar = '*'
+    TabOrder = 1
+    OnChange = ledPasswordChange
+  end
+  object ledPasswordConfirm: TLabeledEdit
+    Left = 147
+    Top = 158
+    Width = 121
+    Height = 21
+    EditLabel.Width = 104
+    EditLabel.Height = 16
+    EditLabel.Caption = 'Confirm Password'
+    EditLabel.Font.Charset = DEFAULT_CHARSET
+    EditLabel.Font.Color = clWindowText
+    EditLabel.Font.Height = -13
+    EditLabel.Font.Name = 'Tahoma'
+    EditLabel.Font.Style = []
+    EditLabel.ParentFont = False
+    MaxLength = 20
+    PasswordChar = '*'
+    TabOrder = 2
+    OnChange = ledPasswordChange
+  end
+  object dtpDateOfBirth: TDateTimePicker
+    Left = 8
+    Top = 158
+    Width = 121
+    Height = 21
+    Date = 44349.000000000000000000
+    Format = 'yyyy/MM/dd'
+    Time = 44349.000000000000000000
+    MaxDate = 73050.934598773150000000
+    MinDate = 2.933912743055556000
+    ParentShowHint = False
+    ShowHint = False
+    TabOrder = 3
+    OnChange = dtpDateOfBirthChange
+  end
+  object btnCancel: TButton
+    Left = 193
+    Top = 215
+    Width = 75
+    Height = 25
+    Caption = 'Cancel'
+    ModalResult = 2
+    TabOrder = 4
+    OnClick = btnCancelClick
+  end
+  object btnSignUp: TButton
+    Left = 112
+    Top = 215
+    Width = 75
+    Height = 25
+    Caption = 'Sign Up'
+    ModalResult = 1
+    TabOrder = 5
+    OnClick = btnSignUpClick
+  end
+end

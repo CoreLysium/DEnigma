@@ -1,0 +1,125 @@
+object frmLogin: TfrmLogin
+  Left = 0
+  Top = 0
+  BorderIcons = []
+  BorderStyle = bsDialog
+  Caption = 'Login'
+  ClientHeight = 243
+  ClientWidth = 175
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lblLoginDetails: TLabel
+    Left = 8
+    Top = 8
+    Width = 157
+    Height = 23
+    Caption = 'Enter Login Details'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lblUsernameCheck: TLabel
+    Left = 8
+    Top = 83
+    Width = 42
+    Height = 11
+    Caption = '*Required'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -9
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lblPasswordCheck: TLabel
+    Left = 8
+    Top = 155
+    Width = 42
+    Height = 11
+    Caption = '*Required'
+    Color = clBtnFace
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -9
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentColor = False
+    ParentFont = False
+  end
+  object ledUsername: TLabeledEdit
+    Left = 8
+    Top = 56
+    Width = 153
+    Height = 21
+    EditLabel.Width = 58
+    EditLabel.Height = 16
+    EditLabel.Caption = 'Username'
+    EditLabel.Font.Charset = DEFAULT_CHARSET
+    EditLabel.Font.Color = clWindowText
+    EditLabel.Font.Height = -13
+    EditLabel.Font.Name = 'Tahoma'
+    EditLabel.Font.Style = []
+    EditLabel.ParentFont = False
+    MaxLength = 20
+    TabOrder = 0
+    OnChange = ledUsernameChange
+  end
+  object ledPassword: TLabeledEdit
+    Left = 8
+    Top = 128
+    Width = 153
+    Height = 21
+    EditLabel.Width = 55
+    EditLabel.Height = 16
+    EditLabel.Caption = 'Password'
+    EditLabel.Font.Charset = DEFAULT_CHARSET
+    EditLabel.Font.Color = clWindowText
+    EditLabel.Font.Height = -13
+    EditLabel.Font.Name = 'Tahoma'
+    EditLabel.Font.Style = []
+    EditLabel.ParentFont = False
+    MaxLength = 20
+    PasswordChar = '*'
+    TabOrder = 1
+    OnChange = ledPasswordChange
+  end
+  object btnLogin: TButton
+    Left = 86
+    Top = 172
+    Width = 75
+    Height = 25
+    Caption = 'Login'
+    Enabled = False
+    TabOrder = 2
+    OnClick = btnLoginClick
+  end
+  object btnSign_up: TButton
+    Left = 8
+    Top = 172
+    Width = 75
+    Height = 25
+    Caption = 'Sign Up'
+    TabOrder = 3
+    OnClick = btnSign_upClick
+  end
+  object btnCancel: TButton
+    Left = 86
+    Top = 203
+    Width = 75
+    Height = 25
+    Caption = 'Cancel'
+    TabOrder = 4
+    OnClick = btnCancelClick
+  end
+end

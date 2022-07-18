@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/05/30 16:53:59.042.pas,C:\Users\CoreLysium\Documents\RAD Studio\Projects\Unit1.pas=C:\Users\CoreLysium\Documents\RAD Studio\Projects\frmMain_u.pas</Transaction>
+    <Transaction>2021/05/30 16:53:59.060.dfm,C:\Users\CoreLysium\Documents\RAD Studio\Projects\Unit1.dfm=C:\Users\CoreLysium\Documents\RAD Studio\Projects\frmMain_u.dfm</Transaction>
+    <Transaction>2021/05/30 16:54:15.776.dproj,C:\Users\CoreLysium\Documents\RAD Studio\Projects\Project1.dproj=C:\Users\CoreLysium\Documents\RAD Studio\Projects\frmDEnigma_p.dproj</Transaction>
+    <Transaction>2021/05/30 16:55:19.656.pas,C:\Users\CoreLysium\Documents\RAD Studio\Projects\Unit1.pas=C:\Users\CoreLysium\Documents\RAD Studio\Projects\untRotor_u.pas</Transaction>
+    <Transaction>2021/05/30 19:56:23.033.pas,C:\Users\CoreLysium\Documents\RAD Studio\Projects\Unit1.pas=C:\Users\CoreLysium\Documents\RAD Studio\Projects\untReversing_Wheel_u.pas</Transaction>
+    <Transaction>2021/06/01 11:15:39.941.pas,C:\Users\CoreLysium\Documents\RAD Studio\Projects\Unit1.pas=C:\Users\CoreLysium\Documents\RAD Studio\Projects\untKeyOff_u.pas</Transaction>
+    <Transaction>2021/06/02 10:17:34.312.pas,C:\Users\CoreLysium\Documents\RAD Studio\Projects\Unit1.pas=C:\Users\CoreLysium\Documents\RAD Studio\Projects\dmUser_Preset_u.pas</Transaction>
+    <Transaction>2021/06/02 10:17:34.312.dfm,C:\Users\CoreLysium\Documents\RAD Studio\Projects\Unit1.dfm=C:\Users\CoreLysium\Documents\RAD Studio\Projects\dmUser_Preset_u.dfm</Transaction>
+    <Transaction>2021/06/02 10:55:19.834.pas,C:\Users\CoreLysium\Documents\RAD Studio\Projects\Unit1.pas=C:\Users\CoreLysium\Documents\RAD Studio\Projects\frmLogin_u.pas</Transaction>
+    <Transaction>2021/06/02 10:55:19.834.dfm,C:\Users\CoreLysium\Documents\RAD Studio\Projects\Unit1.dfm=C:\Users\CoreLysium\Documents\RAD Studio\Projects\frmLogin_u.dfm</Transaction>
+    <Transaction>2021/06/02 12:46:11.792.pas,C:\Users\CoreLysium\Documents\RAD Studio\Projects\Unit1.pas=C:\Users\CoreLysium\Documents\RAD Studio\Projects\frmSignUp_u.pas</Transaction>
+    <Transaction>2021/06/02 12:46:11.792.dfm,C:\Users\CoreLysium\Documents\RAD Studio\Projects\Unit1.dfm=C:\Users\CoreLysium\Documents\RAD Studio\Projects\frmSignUp_u.dfm</Transaction>
+    <Transaction>2021/06/05 12:51:27.518.pas,C:\Users\CoreLysium\Documents\RAD Studio\Projects\Unit1.pas=C:\Users\CoreLysium\Documents\RAD Studio\Projects\frmAdmin_Controls_u.pas</Transaction>
+    <Transaction>2021/06/05 12:51:27.533.dfm,C:\Users\CoreLysium\Documents\RAD Studio\Projects\Unit1.dfm=C:\Users\CoreLysium\Documents\RAD Studio\Projects\frmAdmin_Controls_u.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
